@@ -1,0 +1,96 @@
+<!DOCTYPE>
+<html>
+<head/>
+
+   <link rel="stylesheet" type="text/css"  href="styles.css">
+  
+</head>
+
+<body>
+        
+<!---------Title----------->
+
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Let us know how we can assist you in your selection.</p>
+</div>
+
+<!-----Heading Text------>
+
+<div id="headingText" align="center">
+  <form id="survey-form">
+    <p><label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" minlenght="4" maxlength="28" required /></p>
+
+  <!-----Email Input--------->
+    
+    <p><label for="email" id="email-label">Email</label><br><input type="email" id="email" placeholder="Enter your email adress" min="18" max="30" required /></p>
+
+ <!--------Number ----------->
+    
+    <p><label for="number" id="number-label">Age</label><br><input type="number" id="number" placeholder="Enter your age" min="18" max="100" required /></p>
+    
+<!---------- Option Langues---->
+    
+    <div id="optionLanguages">
+      <p><label>which programming language do you prefer?</label><br><select name="programmingOptions" id="dropdown">
+          <option value="C">C</option>
+          <option value="C#">C#</option>
+          <option value="C++">C++</option>
+          <option value="Java">Java</option>
+          <option value="PHP">PHP</option>
+        </select>
+      </p>
+ <!----------Radio Buttons------->
+      
+      <label>Are any of these programming languages dificult to learn?</label>
+      <div id="radioBtn">
+        <input type="radio" id="definately" name="difficulty" value="definately" /><label for="definately">Definately</label><br>
+<input type="radio" id="maybe" name="difficulty" value="maybe" /> <label for="maybe">Maybe</label><br>
+
+        <input type="radio" id="unsure" name="difficulty" value="unsure" /> <label for="unsure">Unsure</label>
+      </div><br>
+
+<!--------Checkboxes------->
+      
+      <div id="checkBoxes">
+        <label>Select the type of programming experience you have. Check all that applies.</label><br>
+
+          <input type="checkbox" name="experience" id="frontEndProjects" value="frontEndProjects"><label for="frontEndProjects">Front-end Projects</label><br>
+
+          <input type="checkbox" name="experience" id="backEndProjects" value="backEndProjects"><label for="backEndProjects">Back end Projects</label><br>
+
+          <input type="checkbox" name="experience" id="dataVisualization" value="dataVisualization"><label for="dataVisualization">Data Visualization</label><br>
+
+          <input type="checkbox" name="experience" id="mobileDevelopment" value="mobileDevelopment"><label for="mobileDevelopment">Mobile Development</label><br>
+
+          <input type="checkbox" name="experience" id="applicationDevelopment" value="applicationDevelopment"><label for="applicationDevelopment">Application Development</label><br>
+
+          <input type="checkbox" name="experience" id="cloudComputing" value="cloudComputing" /><label for="cloudComputing">Cloud Computing</label>
+      </div> <br>
+
+   <!--------Textarea----------->
+
+      <label>Please enter any comments or suggestions</label><br>
+      <textarea name="comments" rows="7" cols="90" wrap="soft" id="textArea">Enter your comments here...</textarea> <br><br>
+
+ <!----------Submit Form------->
+      
+      <button type="submit" form="survey-form" id="submit" value="submit">Submit</button>
+
+    </div>
+
+  </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
