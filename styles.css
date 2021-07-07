@@ -1,0 +1,91 @@
+/*  Main Body */
+
+body {
+  background-color: skyblue;
+  font-size: Large;
+  font-weight: 525;
+}
+
+/*  Form */
+
+form {
+  background-color: rgb(90, 90, 300);
+  width: 70%;
+  padding: 25px;
+  text-align: left;
+  font-size: 25px;
+  font-tyle: 10em;
+}
+
+#survey-form {
+  background-color: dark blue;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#description {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Survey Form */
+
+input [type="text"] {
+  width: 70%;
+  border-radius: 8px;
+}
+
+#name {
+  width: 70%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#email {
+  width: 70%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#number {
+  width: 70%;
+  height: 30px;
+  border-readius: 8px;
+}
+
+/* Dropdown */
+
+#dropdown {
+  width: 71%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+
+input[type="checkbox"]:not(old) + label,
+input[type="radio"]:not(old) + label {
+  display: inline-block;
+  margin-left: -15px;
+  padding-left: 28px;
+  background: url("checks.png") no-repeat 0 0;
+  line-height: 24px;
+}
+
+/* TextArea */
+
+#tedtArea {
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Submit form and Button */
+
+#submit {
+  width: 70%;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #4caf50;
+}
